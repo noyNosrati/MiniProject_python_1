@@ -13,8 +13,16 @@ Repository for Mini-Project #1 in *Neuroscience Data Analysis with Python*.
 
 ## How to Run
 
-1. Create and activate a virtual environment, then install dependencies:
+1. Create and activate a virtual environment (skip this step if you already use an existing Python environment):
+   ```bash
+   python -m venv .venv
+   # On Windows (PowerShell):
+   .\.venv\Scripts\Activate.ps1
+   # On macOS/Linux:
+   # source .venv/bin/activate
+   ```
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Open `Q1_neural_spikes.ipynb` and `Q2_laptop_analysis.ipynb` and run all cells from top to bottom.
+3. Open `Q1_neural_spikes.ipynb` and `Q2_laptop_analysis.ipynb`, select your Python environment as the kernel, and run all cells from top to bottom.
